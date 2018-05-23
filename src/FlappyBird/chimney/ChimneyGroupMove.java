@@ -11,7 +11,7 @@ public class ChimneyGroupMove {
 
     }
 
-    public void update(ChimneyGroup chimneyGroup) {
+    public void run(ChimneyGroup chimneyGroup) {
         this.runChimney();
         this.repeatChimney(chimneyGroup);
     }
@@ -19,7 +19,7 @@ public class ChimneyGroupMove {
     public void runChimney() {
         for (int i = 0; i < Constrant.SIZE_CHIMNEY_LIST; i++){
             // Cho ống khói di chuyển
-            ChimneyGroup.chimneys.get(i).update();
+            ChimneyGroup.chimneys.get(i).run();
         }
     }
 

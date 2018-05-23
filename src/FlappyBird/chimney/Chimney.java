@@ -14,7 +14,7 @@ public class Chimney extends Objects {
         this.isLive = false;
     }
 
-    public void update() {
+    public void run() {
         this.position.setX(this.getPositionX() - 2);
         this.boxCollider.position.set(this.position);
     }

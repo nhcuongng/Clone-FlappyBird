@@ -13,7 +13,6 @@ public class Objects implements HitObject, PhysicBody {
     public loadImage loadImage;
     public Vector2D position;
     public int width, height;
-    public boolean isFlying = false;
     public boolean isLive = true;
     public BoxCollider boxCollider;
     
@@ -25,14 +24,6 @@ public class Objects implements HitObject, PhysicBody {
         this.position = position;
         this.width = width;
         this.height = height;
-    }
-
-    public void update(){
-
-    }
-
-    public void paint(long delta) {
-
     }
 
     public float getPositionX(){

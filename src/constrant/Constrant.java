@@ -7,7 +7,7 @@ import base.Vector2D;
 public class Constrant {
 
     // GameWindow
-    public static int WINDOW_WIDTH = 800;
+    public static int WINDOW_WIDTH = 830;
     public static int WINDOW_HEIGHT = 600;
     public static Vector2D POSITION_BIRD_START = new Vector2D(350,200);
 

@@ -12,7 +12,7 @@ public class GroundMove {
         ground.positionUpdate = new Vector2D((int) ground.getPositionX() + 830, (int) ground.position.y);
     }
 
-    public void update(Ground ground) {
+    public void run(Ground ground) {
         // Caapj nhật tốc độ
         ground.position.addUp(-2f,0f);
         ground.positionUpdate.addUp(-2f,0f);

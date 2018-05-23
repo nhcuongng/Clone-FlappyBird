@@ -6,6 +6,8 @@ import FlappyBird.background.Ground;
 import FlappyBird.chimney.ChimneyGroup;
 import constrant.Constrant;
 import pkg2dgamesframework.GameScreen;
+import sound.Sound;
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
@@ -25,6 +27,7 @@ public class GameWindow extends GameScreen {
     private int currentScene = this.beginScene;
     private BirdAnimation birdAnimation;
     private Score score;
+    private Sound sound;
 
 
     public GameWindow() {
@@ -35,6 +38,7 @@ public class GameWindow extends GameScreen {
         this.ground = new Ground();
         this.chimneyGroup = new ChimneyGroup();
         this.score = new Score();
+        this.sound = new Sound();
         this.windowEvent();
         BeginGame();
     }
@@ -42,7 +46,7 @@ public class GameWindow extends GameScreen {
     // reset game khi game kết thúc, đặt chim về vị trí và vận tốc ban đầu
     private void reset() {
         this.bird.position.set(Constrant.POSITION_BIRD_START);
-        this.bird.resetVelocity();
+        this.bird.birdMove.resetVelocity();
         this.bird.setLive(true);
         this.score.reset();
         this.chimneyGroup.reset();
@@ -55,14 +59,14 @@ public class GameWindow extends GameScreen {
             this.reset();
         }else if(this.currentScene == this.gamePlayScene) {
             if (bird.getLive()) { bird_anim.Update_Me(deltaTime);}
-            this.bird.update(deltaTime);
-            this.ground.update();
+            this.bird.run(deltaTime);
+            this.ground.run();
             this.chimneyGroup.update();
             for (int i = 0; i < Constrant.SIZE_CHIMNEY_LIST; i++){
                 if (this.bird.getBoxcollider().checkCollider(this.chimneyGroup.getChimney(i).getBoxcollider())){
-//                    if (bird.getLive() == true){
-//                        bird.bupSound.play();
-//                    }
+                    if (bird.getLive() == true){
+                        sound.bupSound.play();
+                    }
                     this.bird.setLive(false);
                 }
             }
@@ -80,8 +84,8 @@ public class GameWindow extends GameScreen {
         g2.setColor(Color.decode("#b8daef"));
         g2.fillRect(0,0,MASTER_WIDTH,MASTER_HEIGHT);
         this.chimneyGroup.paint(g2);
-        this.ground.paint(g2);
-        if (bird.getIsFlying())
+        this.ground.render(g2);
+        if (bird.birdMove.getIsFlying())
             bird_anim.PaintAnims((int) bird.getPositionX(), (int) bird.getPositionY(), Bird.birdImage, g2, 0, -1);
         else {
             bird_anim.PaintAnims((int) bird.getPositionX(), (int) bird.getPositionY(), Bird.birdImage, g2, 0, 0);
@@ -104,7 +108,7 @@ public class GameWindow extends GameScreen {
             if (this.currentScene == this.beginScene){
                 this.currentScene = this.gamePlayScene;
             }else if (this.currentScene == this.gamePlayScene) {
-               if (this.bird.getLive()) bird.fly();
+               if (this.bird.getLive()) bird.birdMove.fly(this.bird);
             }else if (this.currentScene == this.gameoverScene){
                 this.currentScene = this.beginScene;
             }

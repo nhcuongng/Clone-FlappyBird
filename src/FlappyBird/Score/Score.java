@@ -5,6 +5,7 @@ package FlappyBird.Score;
 import FlappyBird.Bird.Bird;
 import FlappyBird.chimney.ChimneyGroup;
 import constrant.Constrant;
+import sound.Sound;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +13,11 @@ import java.util.List;
 public class Score {
     private int point = 0;
     private List<Integer> points;
+    private Sound sound;
 
     public Score() {
         this.points = new ArrayList<>();
+        this.sound = new Sound();
     }
 
     public int getPoint() {
@@ -26,7 +29,7 @@ public class Score {
         for (int i = 0; i < Constrant.SIZE_CHIMNEY_LIST; i++){
             if (bird.getPositionX() > chimneyGroup.getChimney(i).getPositionX() && !chimneyGroup.getChimney(i).getLive() && i%2 == 0){
                 this.point ++;
-//                    this.bird.getMoneySound.play();
+                    sound.getMoneySound.play();
                 chimneyGroup.getChimney(i).setLive(true);
             }
         }

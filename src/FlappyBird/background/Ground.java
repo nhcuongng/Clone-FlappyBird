@@ -21,11 +21,11 @@ public class Ground extends Objects {
        this.groundMove = new GroundMove(this);
     }
 
-    public void update() {
-        this.groundMove.update(this);
+    public void run() {
+        this.groundMove.run(this);
     }
 
-    public void  paint(Graphics graphics) {
+    public void render(Graphics graphics) {
        graphics.drawImage(this.goundImage,(int) this.position.x, (int) this.position.y,null);
        graphics.drawImage(this.goundImage,(int) this.positionUpdate.x, (int) this.positionUpdate.y,null);
     }

@@ -60,7 +60,7 @@ public class ChimneyGroup {
     }
 
     public void update() {
-        this.chimneyGroupMove.update(this);
+        this.chimneyGroupMove.run(this);
     }
 
     public void reset(){

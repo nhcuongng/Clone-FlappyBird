@@ -2,36 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd01b903-8775-400e-85fe-b29329934cd3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/Bird/BirdAnimation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/Score/Score.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/background/Ground.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/chimney/Chimney.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroupMove.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GameWindow.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/Objects.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/Vector2D.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/constrant/Constrant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/physic/BoxCollider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/physic/HitObject.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/physic/PhysicBody.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/renderer/Renderer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/renderer/loadImage.java" />
-      <change beforePath="$PROJECT_DIR$/src/FlappyBird/Bird.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/FlappyBird/FlappyBird.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/FlappyBird/Ground.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/SplitPane.java" afterPath="$PROJECT_DIR$/src/SplitPane.java" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/AFrameOnImage.java" afterPath="$PROJECT_DIR$/src/pkg2dgamesframework/AFrameOnImage.java" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/Animation.java" afterPath="$PROJECT_DIR$/src/pkg2dgamesframework/Animation.java" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/GameScreen.java" afterPath="$PROJECT_DIR$/src/pkg2dgamesframework/GameScreen.java" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/GameThread.java" afterPath="$PROJECT_DIR$/src/pkg2dgamesframework/GameThread.java" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/Objects.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/QueueList.java" afterPath="$PROJECT_DIR$/src/pkg2dgamesframework/QueueList.java" />
-      <change beforePath="$PROJECT_DIR$/src/pkg2dgamesframework/SoundPlayer.java" afterPath="$PROJECT_DIR$/src/pkg2dgamesframework/SoundPlayer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FlappyBird/Bird/BirdMove.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sound/Sound.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/Bird/Bird.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/Bird/Bird.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/Score/Score.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/Score/Score.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/background/Ground.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/background/Ground.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/background/GroundMove.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/background/GroundMove.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/chimney/Chimney.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/chimney/Chimney.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/chimney/ChimneyGroup.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/chimney/ChimneyGroup.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/chimney/ChimneyGroupMove.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/FlappyBird/chimney/ChimneyGroupMove.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/GameWindow$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/GameWindow.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/base/Objects.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/base/Objects.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/FlappyBridSplit/constrant/Constrant.class" afterPath="$PROJECT_DIR$/out/production/FlappyBridSplit/constrant/Constrant.class" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java" afterPath="$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/Score/Score.java" afterPath="$PROJECT_DIR$/src/FlappyBird/Score/Score.java" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/background/Ground.java" afterPath="$PROJECT_DIR$/src/FlappyBird/background/Ground.java" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java" afterPath="$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/chimney/Chimney.java" afterPath="$PROJECT_DIR$/src/FlappyBird/chimney/Chimney.java" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroup.java" afterPath="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroup.java" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroupMove.java" afterPath="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroupMove.java" />
+      <change beforePath="$PROJECT_DIR$/src/GameWindow.java" afterPath="$PROJECT_DIR$/src/GameWindow.java" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/base/Objects.java" afterPath="$PROJECT_DIR$/src/base/Objects.java" />
+      <change beforePath="$PROJECT_DIR$/src/constrant/Constrant.java" afterPath="$PROJECT_DIR$/src/constrant/Constrant.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,47 +38,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/Objects.java">
+      <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FlappyBird/Score/Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ground.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FlappyBird/background/Ground.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,27 +95,29 @@
         <option value="$PROJECT_DIR$/src/pkg2dgamesframework/Objects.java" />
         <option value="$PROJECT_DIR$/src/FlappyBird/Bird/BirdAnimation.java" />
         <option value="$PROJECT_DIR$/src/SplitPane.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/constrant/Constrant.java" />
         <option value="$PROJECT_DIR$/src/physic/Boxcollider.java" />
         <option value="$PROJECT_DIR$/src/physic/BoxCollider.java" />
         <option value="$PROJECT_DIR$/src/physic/HitObject.java" />
         <option value="$PROJECT_DIR$/src/physic/PhysicBody.java" />
         <option value="$PROJECT_DIR$/src/FlappyBird/Score/score.java" />
-        <option value="$PROJECT_DIR$/src/FlappyBird/Score/Score.java" />
-        <option value="$PROJECT_DIR$/src/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/scene/GameOverScene.java" />
-        <option value="$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java" />
         <option value="$PROJECT_DIR$/src/FlappyBird/chimney/MakeChimneyImage.java" />
-        <option value="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroupMove.java" />
         <option value="$PROJECT_DIR$/src/renderer/Renderer.java" />
         <option value="$PROJECT_DIR$/src/renderer/ImageRenderer.java" />
-        <option value="$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java" />
-        <option value="$PROJECT_DIR$/src/base/Objects.java" />
         <option value="$PROJECT_DIR$/src/base/ObjectManager.java" />
-        <option value="$PROJECT_DIR$/src/FlappyBird/background/Ground.java" />
         <option value="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroup.java" />
         <option value="$PROJECT_DIR$/src/FlappyBird/chimney/Chimney.java" />
+        <option value="$PROJECT_DIR$/src/FlappyBird/background/Ground.java" />
+        <option value="$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroupMove.java" />
+        <option value="$PROJECT_DIR$/src/base/Objects.java" />
+        <option value="$PROJECT_DIR$/src/sound/Sound.java" />
+        <option value="$PROJECT_DIR$/src/FlappyBird/Bird/BirdMove.java" />
+        <option value="$PROJECT_DIR$/src/GameWindow.java" />
+        <option value="$PROJECT_DIR$/src/FlappyBird/Score/Score.java" />
+        <option value="$PROJECT_DIR$/src/constrant/Constrant.java" />
+        <option value="$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java" />
       </list>
     </option>
   </component>
@@ -170,8 +142,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,13 +156,23 @@
             <path>
               <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="constrant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
@@ -215,13 +199,6 @@
               <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="FlappyBird" type="462c0819:PsiDirectoryNode" />
-              <item name="chimney" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FlappyBird" type="462c0819:PsiDirectoryNode" />
               <item name="Score" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,24 +211,16 @@
               <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg2dgamesframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlappyBirdProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlappyBirdProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlappyBirdProject - Copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../geo-arcade-ci4" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -452,7 +421,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14934114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -505,46 +474,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/chimney/Chimney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Score/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -557,15 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,9 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,6 +502,14 @@
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,13 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,9 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,6 +563,14 @@
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -656,13 +579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,10 +588,11 @@
         <state relative-caret-position="697">
           <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,15 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,11 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,27 +676,8 @@
         <state relative-caret-position="-85">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constrant/Constrant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,202 +706,163 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scene/SceneManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scene/GamePlayScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/SceneManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/scene/GamePlayScene.java" />
+    <entry file="file://$PROJECT_DIR$/src/scene/Scene.java" />
     <entry file="file://$PROJECT_DIR$/src/pkg2dgamesframework/QueueList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scene/GameOverScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/chimney/MakeChimneyImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Bird/BirdAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/GameOverScene.java" />
+    <entry file="file://$PROJECT_DIR$/src/FlappyBird/chimney/MakeChimneyImage.java" />
     <entry file="file://$PROJECT_DIR$/src/renderer/Renderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Score/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/ObjectManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/ImageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/ObjectManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/renderer/ImageRenderer.java" />
     <entry file="file://$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
           <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlappyBird/chimney/Chimney.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="221">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlappyBird/chimney/ChimneyGroupMove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="-60">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlappyBird/background/GroundMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Bird/BirdMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constrant/Constrant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sound/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Bird/BirdAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlappyBird/background/Ground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="246">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/bird_sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Bird/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlappyBird/Score/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
